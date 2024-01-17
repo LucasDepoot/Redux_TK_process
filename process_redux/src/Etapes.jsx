@@ -15,8 +15,6 @@ export default function Etapes() {
   <ul>
     <li>Dans le répertoire de ton projet, crée un nouveau dossier appelé `store`.</li>
   </ul>
-
-  <li>Créer le fichier `store.js` :</li>
   <ul>
     <li>Dans le dossier `store`, crée un fichier nommé `index.js`.</li>
     <li>Dans ce fichier, utilise la fonction `configureStore` de Redux Toolkit pour créer le store en spécifiant les reducers nécessaires.</li>
