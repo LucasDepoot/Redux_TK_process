@@ -9,8 +9,8 @@ const initialState = {
 };
 
 // Étape 2: Créer des constantes pour chaque action
-const setNom = createAction('nomReducer/setNom');
-const setNom2 = createAction('nomReducer/setNom2');
+export const setNom = createAction('nomReducer/setNom');
+export const setNom2 = createAction('nomReducer/setNom2');
 
 // Étape 3: Créer le reducer avec createReducer
 const monReducer = createReducer(initialState, (builder) => {
