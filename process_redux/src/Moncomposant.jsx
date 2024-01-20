@@ -1,6 +1,8 @@
 import React from 'react';
 //Importe useDispatch et useSelector
 import { useDispatch, useSelector } from 'react-redux';
+//Importe l'action
+import {monAction} from '../store/monreducer'
 
 const MonComposant = () => {
   //  Initialisation du Dispatcher
